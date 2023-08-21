@@ -1,15 +1,14 @@
 <template>
-<homePage />
+  <weatherWidget />
 </template>
 
 <script>
-import homePage from './components/homePage.vue';
+import weatherWidget from "./components/weatherWidget/weatherWidget.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    homePage
-  }
-}
+    weatherWidget,
+  },
+};
 </script>
-
